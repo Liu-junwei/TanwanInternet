@@ -1,0 +1,569 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Microsoft YaHei";
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background: #000;
+}
+#header{
+    width: 100%;
+    height: 44px;
+    background: #FBFBFB;
+    border-bottom:1px solid #E1E1E1;
+}
+#header #header-main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 44px;
+    position: relative;
+}
+#header-main .left{
+   float: left;
+   width: 393px;
+   height: 44px; 
+}
+#header-main .left>a{
+    display: block;
+    background:url(../images/tw-logo.jpg) 0 2px no-repeat;
+    float: left;
+    width: 123px;
+    height: 44px;
+    position: relative;
+ }
+ #header-main .left .left-ads{
+    float:right;
+    width: 240px;
+    height: 44px;
+    padding-left: 30px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+ }
+ #header-main .left .left-ads .ads1{
+    display: block;
+    border: none;
+ }
+ #header-main .left .left-ads:hover .ads1{
+    display: none;
+ }
+ #header-main .left .left-ads a{
+   display: none;
+ }
+ #header-main .left .left-ads a img{
+    position: absolute;
+    margin-left: -110px;
+    top:0;
+    z-index: 999999;
+ }
+ #header-main .left .left-ads:hover a{
+    display: block;
+ }
+#header-main .right{
+    float: right;
+    height: 44px;
+ }
+ #header-main .right .right-f1{
+    float: left;
+    width: 76px;
+    height: 44px;
+ }
+ #header-main .right .right-f1 a{
+    display: block;
+    width: 25px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #454545;
+    text-align: center;
+    padding: 0 5px;
+ }
+ #header-main .right .right-f1 span{
+    width: 1px;
+    height: 44px;
+    line-height: 44px;
+    color: #454545;
+    font-size: 12px;
+ }
+ #header-main .right .right-f1 a:first-of-type{
+    float: left;
+ }
+ #header-main .right .right-f1 a:last-of-type{
+    float: right;
+ }
+ #header-main .right .right-f2{
+    float: left;
+    width: 270px;
+    height: 44px;
+    margin: 0 0 0 10px;
+    line-height: 44px;
+ }
+ #header-main .right .right-f2 a{
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 44px;
+    color: #333;
+    background:url(../images/cyou-ico.png) no-repeat;
+    background-position-y:15px;
+    padding-left: 18px;
+    margin-right: 10px;
+ }
+ #header-main .right .right-f2 a:hover{
+    color: #FE5600;
+ }
+ #header-main .right .right-f2 .cz{
+    width:24px;
+    background-position:2px 15px;
+ }
+ #header-main .right .right-f2 .sc{
+    width:24px;
+    background-position:-54px 15px;
+ }
+ #header-main .right .right-f2 .gzh{
+    position: relative;
+    width:50px;
+    margin-right: 0px;
+    background-position:-110px 15px;
+ }
+ #header-main .right .right-f2 .gzh .ewm{
+    width: 221px;
+    height: 134px;
+    background: url(../images/cyou-ewm-bg.png);
+    position: absolute;
+    left: -79px;
+    top: 35px;
+    display: none;
+    z-index: 999999;
+ }
+ #header-main .right .right-f2 .gzh:hover .ewm{
+    display: block;
+ }
+ #header-main .right .right-f2 .gzh .ewm img{
+   width: 85px;
+   height: 85px;
+   position:absolute;
+   left: 10px;
+   top: 27px;
+ }
+ #header-main .right .right-f2 .gzh .ewm span{
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    left: 106px;
+    top: 46px;
+    width: 111px;
+    text-align: center;
+  }
+ #header-main .right .right-f2 .kf{
+    width:48px;
+    background-position:-179px 15px;
+ }
+ #header-main .right .right-f3{
+    width:88px;
+    height: 44px;
+    float: left; 
+ }
+ #header-main .right .right-f3>a{
+   width: 88px;
+   height: 44px;
+   background:#EDEDED url(../images/pb-hd-ico.jpg) 64px center no-repeat;
+   font-size: 12px;
+   color: #333;
+   float: left;
+   text-indent: 11px;
+   line-height: 44px;
+ }
+ #header-main .right .right-f3:hover .allgames{
+   display: block;
+  }
+  #header-main .right .right-f3:hover>a{
+    background:#FDE701 url(../images/pb-hd-ico1.jpg) 64px center no-repeat;
+   }
+ #header-main .right .right-f3 .allgames{
+    width: 1200px;
+    height: 242px;
+    background:#fff;
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    border: 1px solid #f2f2f2;
+    display: none;
+    z-index: 999999;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f1{
+    width: 509px;
+    height: 242px;
+    background:rgb(133, 86, 86);
+    float: left;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f1 a{
+    background: url(../images/cqsjwyb.jpg) no-repeat;
+    display: block;
+    width: 509px;
+    height: 242px;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f1 a p{
+    color: #666;
+    font-size: 12px;
+    width: 276px;
+    position: absolute;
+    left: 22px;
+    top: 106px;
+    line-height: 25px;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f2{
+    width: 440px;
+    height: 215px;
+    padding-top: 27px;
+    margin: 0 20px;
+    float: left;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f2 .f2-top{
+   height: 16px;
+   width: 100%;
+   line-height: 16px;
+   float: left;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f2 .f2-top h3{
+    height: 16px;
+    line-height: 16px;
+    border-left: 4px solid #FDE701;
+    color: #333;
+    font-size: 16px;
+    font-weight: 100;
+    text-indent: 10px;
+    float: left;
+   }
+   #header-main .right .right-f3 .allgames .allgames-f2 .f2-top a{
+    float: right;
+    color: #888;
+    font-size: 12px;
+   }
+   #header-main .right .right-f3 .allgames .allgames-f2 .f2-bottom{
+    margin-top: 14px;
+    border-top:1px solid #eee;
+    width: 100%;
+    float: left;
+   }
+   #header-main .right .right-f3 .allgames .allgames-f2 .f2-bottom li{
+    float: left;
+    width: 25%;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 20px;
+    overflow: hidden;
+}   
+#header-main .right .right-f3 .allgames .allgames-f2 .f2-bottom li a{
+   display: block;
+   color: #666;
+   height: 14px;
+   line-height: 16px;
+   font-size: 12px;
+   cursor: pointer;
+}  
+#header-main .right .right-f3 .allgames .allgames-f2 .f2-bottom li a:hover{ 
+    color: #FE5600;
+ }   
+  #header-main .right .right-f3 .allgames .allgames-f3{
+    width: 209px;
+    height: 242px;
+    border-left: 1px solid #eee;
+    float: left;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f3 p{
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding-top: 23px;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f3 a{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 77px;
+    margin-top: 14px;
+    font-size: 12px;
+    line-height: 135px;
+    color: #666;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f3 a:first-of-type{
+    background:url(../images/game-box.jpg) top center no-repeat;
+  }
+  #header-main .right .right-f3 .allgames .allgames-f3 a:last-of-type{
+    background:url(../images/game-lp.jpg) top center no-repeat;
+  }
+ /* 主体部分大框样式 */
+  #content{
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   /* background-color: rgb(45, 202, 66); */
+}
+#content .content-left{
+   width: 193px;
+   height: 1700px;
+   padding-bottom: 1000px;
+   margin-bottom: -1000px;
+   position: absolute;
+   left: 3px;
+   z-index: 9999;
+   background: #2D2A36;  
+}
+#content .content-left .logo{
+   width: 193px;
+   height: 170px;
+   background: url(../images/logo_bg.jpg) center no-repeat; 
+}
+#content .content-left .logo a{
+   display: block;
+   width: 100%;
+   height: 170px;
+}
+#content .content-left .logo a img{
+   display: block;
+   width: 98%;
+   margin-top: 42.5px;
+   border: 0;
+}
+#content .content-left .start{
+    width: 246px;
+    height: 230px;
+    position: relative;
+    left: -26px;
+    z-index: 99;
+}
+#content .content-left .start a{
+   background: url(../images/start.png) no-repeat;
+   width: 246px;
+   height: 220px;
+   float: left;
+}
+/* 小导航 */
+#content .content-left .little-nav {
+  border-top:1px solid #3B3964 ;
+  height: 78px;
+  position: relative;
+  top: -8px;
+  width: 192px;
+  /* background: rgb(218, 170, 170); */
+}
+#content .content-left .little-nav li{
+  float: left;
+  border-bottom: 1px solid #3B3964;
+  width: 95.5px;
+  height: 78px;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s ease-out 0s;
+}
+
+#content .content-left .little-nav li + li{
+  border-left: 1px solid #3B3964;
+}
+#content .content-left .little-nav li i{
+  background-image:url(../images/nav.png) ;
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  width: 44px;
+  height: 31px;
+  margin: 0 0 0 -21px;
+  transition: all .7s ease-out 0s;
+}
+#content .content-left .little-nav li .qnav-1{
+  background-position: 2px 232px;
+}
+#content .content-left .little-nav li .qnav-2{
+  background-position: 2px 170px;
+}
+#content .content-left .little-nav li .qnav-3{
+  background-position: 2px 109px;
+}
+#content .content-left .little-nav li .qnav-4{
+  background-position: 2px 49px;
+}
+#content .content-left .little-nav li a{
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  color: #6c799f;
+  display: block;
+  text-align: center;
+  padding-top:47px;
+  font-size: 14px;
+  transition: all .3s ease-out 0s,padding .3s ease-out .05s,height .3s ease-out .05s;
+}
+#content .content-left .little-nav li:hover{
+  background: #4F4E6D;
+}
+#content .content-left .little-nav li:hover i{
+  top: -44px;
+  opacity: 0;
+}
+#content .content-left .little-nav li:hover a{
+  color: #fff;
+  padding-top: 25px;
+  height: 31px;
+}
+/* 大导航 */
+#content .content-left .nav-box{
+  width: 192px;
+  height: 600px;
+  margin-top: 30px;
+  position: relative;
+}
+#content .content-left .nav-box .download{
+  width: 212px;
+  height: 87px;
+  display: block;
+  background: url(../images/down.jpg) no-repeat;
+}
+#content .content-left .nav-box .download:hover{
+  background: url(../images/down_h.jpg) no-repeat;
+}
+#content .content-left .nav-box .nav{
+     width:192px;
+     height: 513px;
+     position: relative;
+     /* background: #000; */
+}
+#content .content-left .nav-box .nav li{
+     width: 192px;
+     height: 70px;
+     float: left;
+     position: relative;
+     overflow: hidden;
+     transition: all .5s ease-out 0s;
+}
+#content .content-left .nav-box .nav li + li{
+  border-top: 1px solid #3B3946;
+}
+#content .content-left .nav-box .nav li i{
+  background: url(../images/nav.png) no-repeat;
+  display: block;
+  position: absolute;
+  top: 23px;
+  left: 29%;
+  width: 44px;
+  height: 31px;
+  margin: 0 0 0 -22px;
+  transition: all .7s ease-out 0s;
+}
+#content .content-left .nav-box .nav li .nav-1{
+  background-position: 0px -4px;
+}
+#content .content-left .nav-box .nav li .nav-2{
+  background-position: 0px -65px;
+}
+#content .content-left .nav-box .nav li .nav-3{
+  background-position: 0px -124px;
+}
+#content .content-left .nav-box .nav li .nav-4{
+  background-position: 0px -187px;
+}
+#content .content-left .nav-box .nav li .nav-5{
+  background-position: 0px -248px;
+}
+#content .content-left .nav-box .nav li .nav-6{
+  background-position: 0px -310px;
+}
+#content .content-left .nav-box .nav li .nav-7{
+  background-position: 0px -373px;
+}
+#content .content-left .nav-box .nav li a{
+  display: block;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  color: #6c799f;
+  text-indent: 81px;
+  padding-top: 22px;
+  font-size: 16px;
+  transition: all .3s ease-out 0s,padding .3s ease-out .05s,height .3s ease-out .05s;
+}
+#content .content-left .nav-box .nav li:hover{
+  background: #4F4E6D;
+}
+#content .content-left .nav-box .nav li:hover a{
+  color: #fff;
+  text-indent: 68px;
+  padding-bottom: 20px;
+}
+#content .content-left .nav-box .nav li:hover i{
+  left: -44px;
+  opacity: 0;
+}
+/* 底部 */
+#footer{
+   float: left;
+   width: 100%;
+   height: 244px;
+   min-width: 1100px;
+   font-size: 12px;
+   padding: 30px 0;
+   background:  #231B26;
+}
+#footer table{
+   border: none;
+   border-collapse: collapse;
+   margin: 0 auto;
+}
+#footer table td{
+   height: 77px;
+   vertical-align: middle;
+   text-align: left;
+   padding: 0 10px;
+}
+#footer table td p{
+   text-align: center;
+   line-height: 24px;
+   color: #999;
+   white-space: nowrap;
+   font: 400 12px/22px Tahoma,Geneva,sans-serif;
+}
+#footer table td p a{
+   color: #8e8e8e;
+}
+#footer table td  .footer-right{
+   width: 280px;
+   height: 80px;
+   margin: 0 auto;
+   padding-top: 20px;
+}
+#footer table td  .footer-right a{
+   background: url(../images/footer-ico_v2.png) no-repeat 0 0 ;
+   height: 51px;
+   width: 54px;
+   display: inline-block;
+   margin-right: 10px;
+   vertical-align: middle;
+   position: static;
+   color: #8e8e8e;
+}
+#footer table td  .footer-right a.footer-ico-1{
+   background-position: -141px 0;
+}
+#footer table td  .footer-right a.footer-ico-2{
+  height: 47px;
+  background: url(../images/JiangxiCommerce.png) center 0 no-repeat;
+  text-align: center;
+  line-height: 90px;
+}
+#footer table td  .footer-right a.footer-ico-3{
+  width: 42px;
+}
+#footer table td  .footer-right a.footer-ico-4{
+   background: url(../images/teenager.png) 0 0 no-repeat;
+}
+#footer table td  a:hover{
+   color: #484848;
+}
+

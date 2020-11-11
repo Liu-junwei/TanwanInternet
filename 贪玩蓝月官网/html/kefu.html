@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线客服</title>
+    <link rel="stylesheet" href="../css/kefu.css">
+    <script src="../js/kefu.js"></script>
+</head>
+
+<body>
+    <div class="chat">
+
+        <div class="chat__head web-logo"> <img src="../images/kefu_logo.png" alt="贪玩页游" style="height:50px"> </div>
+        <div class="chat__body">
+            <div class="chat__body--left">
+
+                <div class="chat__dialog">
+                    <div class="chat__dialog__body">
+                        <div id="task" class="chat__dialog__content talk-main">
+                            <div class="chat__dialog__list" id="talk-list">
+                                <div class="chat__message--left">
+                                    <div class="chat__message--left__avatar"> <img class="chat__message__image"
+                                            src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABGAAD/4QMqaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzE0MiA3OS4xNjA5MjQsIDIwMTcvMDcvMTMtMDE6MDY6MzkgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTUwMEE5NkJEQ0VEMTFFOEE0OURCNUJFNTBERkMyQTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTUwMEE5NkNEQ0VEMTFFOEE0OURCNUJFNTBERkMyQTIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNTAwQTk2OURDRUQxMUU4QTQ5REI1QkU1MERGQzJBMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNTAwQTk2QURDRUQxMUU4QTQ5REI1QkU1MERGQzJBMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAQDAwMDAwQDAwQGBAMEBgcFBAQF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"
+                                            alt=""> </div>
+                                    <div class="chat__message--left__content">
+                                        <p class="chat__message__name"> <span class="game-cate-name">页游</span>自助服务<span
+                                                class="help-time"></span> </p>
+                                        <div class="chat__message__info chat__message__info--help">
+                                            <p>您好，欢迎使用贪玩官方自助服务</p>
+                                            <p>以下是您关心的问题吗：</p>
+                                            <ol class="chat__help">
+                                                <li class="chat__help__item"><a
+                                                        class="help-link-click chat__help__click" data-value="41"
+                                                        href="#">充值问题</a><br></li>
+                                                <li class="chat__help__item"><a
+                                                        class="help-link-click chat__help__click" data-value="52"
+                                                        href="#">登录问题</a><br></li>
+                                                <li class="chat__help__item"><a
+                                                        class="help-link-click chat__help__click" data-value="50"
+                                                        href="#">谨防诈骗</a><br></li>
+                                                <li class="chat__help__item"><a
+                                                        class="help-link-click chat__help__click" data-value="46"
+                                                        href="#">感谢客服</a><br></li>
+                                                <li class="chat__help__item"><a
+                                                        class="help-link-click chat__help__click" data-value="42"
+                                                        href="#">精彩活动</a><br></li>
+                                                <li class="chat__help__item"><a
+                                                        class="help-link-click chat__help__click" data-value="39"
+                                                        href="#">账号问题</a><br></li>
+                                                <li class="chat__help__item"><a
+                                                        class="help-link-click chat__help__click" data-value="51"
+                                                        href="#">游戏问题</a><br></li>
+
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat__dialog__foot">
+                        <div id="keyword-popover" class="keyword-popover">
+                            <div class="keyword-block">游戏上不去</div>
+                            <div class="keyword-block">被封号、被禁言</div>
+                            <div class="keyword-block">修改资料</div>
+                            <div class="keyword-block">忘记密码</div>
+                            <div class="keyword-block">充值不到账</div>
+                            <div class="keyword-block">返利</div>
+                        </div>
+
+                        <div class="chat__toolbar">
+                            <div name="emoji" id="tool-emoji" class="chat__toolbar__ico chat__toolbar__ico--emoji">
+                            </div>
+                            <div name="cut" id="tool-pic" class="chat__toolbar__ico chat__toolbar__ico--pic"> 
+                                
+                            </div>
+                            <div name="sound" id="tool-sound" class="chat__toolbar__ico chat__toolbar__ico--sound">
+                            </div>
+                            <div name="send" id="tool-send" class="chat__toolbar__ico chat__toolbar__ico--send"></div>
+                        </div>
+                        <div class="chat__textarea">
+                            <div class="chat__textarea__body" id="chat-textarea" placeholder="请输入文字或者粘贴图片">
+                            </div>
+                            <div class="chat__textarea__foot">
+                                <a href="javascript:;" id="btn-end"
+                                    class="chat__textarea__btn chat__textarea__btn--end">结束对话</a>
+                                <a href="javascript:;" id="btn-send"
+                                    class="chat__textarea__btn chat__textarea__btn--send">发送</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat__body--right">
+                <div class="chat__label">新闻公告</div>
+                <div class="chat__slide">
+                    <div id="newSwiper" class="swiper-container swiper-container-horizontal">
+                        <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                            <div class="swiper-slide swiper-slide-active" style="width: 250px;"><a target="_blank"
+                                    href="http://www.tanwan.com/news/hdgg/2019-08/96247.html"><img
+                                        src="https://livechatoss.tanwan.com/activity/158398459477027.png" alt=""
+                                        width="250px" height="210px"></a></div>
+                        </div>
+                        <div class="pagination">
+                            <div class="paginations swiper-pagination-clickable swiper-pagination-bullets"><span
+                                    class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                    role="button" aria-label="Go to slide 1"></span></div>
+                        </div> <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+                <div class="chat__label">便捷操作</div>
+                <div class="chat__shortcut">
+                    <ul class="clearfix">
+                        <li class="chat__shortcut__item"> <a id="artificial" href="javascript:;" title="人工服务"
+                                class="chat__shortcut__link chat__shortcut__link--artificial">人工服务</a> </li>
+                        <li class="chat__shortcut__item"> <a id="complaint"
+                                href="https://m.tanwan.com/index.php?m=web&amp;c=help&amp;a=question&amp;type=2"
+                                target="_blank" title="投诉建议"
+                                class="chat__shortcut__link chat__shortcut__link--complaint">投诉建议</a> </li>
+                        <li class="chat__shortcut__item"> <a id="appeal" href="javascript:;" title="账号申诉"
+                                class="chat__shortcut__link chat__shortcut__link--appeal">账号申诉</a> </li>
+                    </ul>
+                </div>
+                <div class="chat__contact" id="contact">
+                    <p>7x24小时热线电话</p>
+                    <p class="mobile">4006233555</p>
+                    <p><span id="qq_name">远程协助QQ号</span><span class="qq">800190140</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

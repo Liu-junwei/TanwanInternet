@@ -1,0 +1,113 @@
+#content{
+    height: 1545px;
+    width: 1920px;
+}
+#content .content-right{
+    width: 1753px;
+    height: 1545px;
+    float: left;
+    background: #ECEDEC url(../images/ny_bg.jpg) no-repeat;
+    margin-left: 193px;
+}
+#content .content-right .right-main{
+    width: 1202px;
+    margin-left: 65px;
+    margin-top: 160px;
+}
+#content .content-right .right-main .right-title{
+    width: 100%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+}
+#content .content-right .right-main .right-title h2{
+    font-size: 49px;
+    color: #000;
+    font-weight: normal;
+    float: left;
+}
+#content .content-right .right-main .right-title span{
+    font-size: 35px;
+    color: #a5a5a5;
+    margin-left: 10px;
+    line-height: 68px;
+}
+#content .content-right .right-main .nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px auto;
+    float: left;
+    background: #3F3C3C;
+    color: #fff;
+    font-size: 16px;
+    text-indent: 15px;
+}
+#content .content-right .right-main .nav a{
+    color: #fff;
+}
+#content .content-right .right-main .nav a:hover{
+    color: #999;
+}
+#content .content-right .right-main .ct_module{
+    width: 100%;
+    height: 273px;
+    float: left;
+    margin-bottom: 15px;
+}
+#content .content-right .right-main .t1{
+    background: #E5E5E2 url(../images/t1.jpg) no-repeat;
+}
+#content .content-right .right-main .t2{
+    background: #E5E5E2 url(../images/t2.jpg) right no-repeat;
+}
+#content .content-right .right-main .t3{
+    background: #E5E5E2 url(../images/t3.jpg) no-repeat;
+}
+#content .content-right .right-main .ct_module .ct_chunk{
+   width: 620px;
+   height: 218px;
+   float: right;
+   margin: 34px 34px 0 34px;
+   overflow: hidden;
+}
+#content .content-right .right-main .t2 .ct_chunk{
+   float: left;
+}
+#content .content-right .right-main .ct_module .ct_chunk p{
+   font-size: 24px;
+   height: 30px;
+   line-height: 30px;
+   color: #3f3b3c;
+   width: 100%;
+   float: left;
+}
+#content .content-right .right-main .ct_module .ct_chunk ul{
+   width: 100%;
+   height: 133px;
+   float: left;
+}
+#content .content-right .right-main .ct_module .ct_chunk ul li{
+   width: 112px;
+   height: 34px;
+   float: left;
+   margin-right: 12px;
+   margin-top: 12px;
+}
+
+#content .content-right .right-main .ct_module .ct_chunk ul li a{
+   width: 111px;
+   height: 33px;
+   border: 1px solid #C9C9C6;
+   background: #D7D8D7;
+   color: #5a5856;
+   display: block;
+   font-size: 16px;
+   text-align: center;
+   line-height: 33px;
+}
+#content .content-right .right-main .ct_module .ct_chunk ul li a:hover{
+   color: #fff;
+   background: #3F3C3C;
+   border: 1px solid #000;
+ }
